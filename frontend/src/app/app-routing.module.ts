@@ -1,13 +1,14 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { MDropdownComponent } from './component/m-dropdown/m-dropdown.component';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {ContainerComponent} from "./component/container/container.component";
 
 const routes: Routes = [
-  {path: '', component: MDropdownComponent, pathMatch: 'full'}
+  {path: '', component: ContainerComponent, pathMatch: 'full'}
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}

@@ -7,11 +7,18 @@ import { InputTextModule } from 'primeng/inputtext';
 import { DropdownModule } from 'primeng/dropdown';
 import { FormsModule } from '@angular/forms';
 import { MDropdownComponent } from './component/m-dropdown/m-dropdown.component';
+import {MService} from "./service/m-service";
+import { TesztComponent } from './component/teszt/teszt.component';
+import { ContainerComponent } from './component/container/container.component';
+import {ButtonModule} from "primeng/button";
+import {RippleModule} from "primeng/ripple";
 
 @NgModule({
   declarations: [
     AppComponent,
-    MDropdownComponent
+    MDropdownComponent,
+    TesztComponent,
+    ContainerComponent
   ],
   imports: [
     BrowserModule,
@@ -19,9 +26,13 @@ import { MDropdownComponent } from './component/m-dropdown/m-dropdown.component'
     AppRoutingModule,
     InputTextModule,
     DropdownModule,
-    FormsModule
+    FormsModule,
+    ButtonModule,
+    RippleModule
   ],
-  providers: [],
+  providers: [
+    MService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

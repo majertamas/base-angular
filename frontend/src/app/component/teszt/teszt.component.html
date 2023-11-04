@@ -1,0 +1,16 @@
+<button
+  pButton
+  pRipple
+  type="button"
+  label="Button"
+  class="p-button-help"
+  (click)="onButtonClick()"
+></button>
+
+<div class="pt-5" *ngIf="message">
+  {{message}}
+</div>
+
+<div class="pt-5" *ngIf="buttonMessage">
+  {{buttonMessage}}
+</div>
