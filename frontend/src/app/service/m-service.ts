@@ -1,6 +1,7 @@
-import {EventEmitter, Injectable} from "@angular/core";
+import {Injectable} from "@angular/core";
+import {Subject} from "rxjs";
 
 @Injectable()
 export class MService {
-  public emitter: EventEmitter<string> = new EventEmitter<string>();
+  public subject: Subject<string> = new Subject<string>();
 }

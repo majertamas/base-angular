@@ -17,3 +17,19 @@ N
 frontend/src/app/app.module.ts,7/1/71633c9c5b72a7fccc8b4729b6cffad54234d99c
 e
 5frontend/src/app/component/teszt/teszt.component.html,e/e/ee24ed6569ef7afbec22c854b8afabc9a8457b88
+C
+frontend/.gitignore,e/2/e23a63a9f05477a70f6e75d709dbb4eae2db742d
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+k
+;frontend/src/app/component/container/container.component.ts,4/c/4c2de5c9a48a5f6a27717f4863c36a2868b9b3df
+m
+=frontend/src/app/component/container/container.component.scss,3/6/365691323b0ca17adf14a39f638a0429b1cd8ff5
+p
+@frontend/src/app/component/container/container.component.spec.ts,8/2/8202983f79991489f4222dc62fe31375c397126d
+h
+8frontend/src/app/component/teszt/teszt.component.spec.ts,3/7/37777a5beeb6c8a3cdb88586eeefc07ae3ab31da
+e
+5frontend/src/app/component/teszt/teszt.component.scss,1/d/1d1d963d94d6b4c5f44e88cb07fc0d0a959e3d16

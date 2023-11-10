@@ -1,16 +1,20 @@
+<div id="service-message" class="pt-5" *ngIf="message">
+  {{message}}
+</div>
+
+
+<div id="button-message" class="pt-5" *ngIf="buttonMessage">
+  {{buttonMessage}}
+</div>
+
+
 <button
   pButton
   pRipple
   type="button"
   label="Button"
   class="p-button-help"
-  (click)="onButtonClick()"
+  id="button"
 ></button>
 
-<div class="pt-5" *ngIf="message">
-  {{message}}
-</div>
 
-<div class="pt-5" *ngIf="buttonMessage">
-  {{buttonMessage}}
-</div>

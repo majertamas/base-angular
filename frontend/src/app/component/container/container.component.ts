@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./container.component.scss']
 })
 export class ContainerComponent {
+  public refresh(): void {
+    window.location.reload();
+  }
 
 }

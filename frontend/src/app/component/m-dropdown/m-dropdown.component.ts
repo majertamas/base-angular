@@ -40,7 +40,7 @@ export class MDropdownComponent {
 
   public onBlur(): void {
     if (!this.mouseOnLi) {
-      this.mService.emitter.emit('service message');
+      this.mService.subject.next('service message');
     }
   }
 
